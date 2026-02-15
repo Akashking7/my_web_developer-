@@ -179,4 +179,18 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color
 
 
 
-1.  
+1. static
+2. relative
+3. absolute
+4. fixed
+
+
+10. CSS Display properties
+
+
+1. block
+2. inline
+3. inline-block
+
+
+11. 
