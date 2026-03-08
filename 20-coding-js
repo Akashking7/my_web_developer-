@@ -1,0 +1,252 @@
+Here are **20 important coding problems** to practice in **JavaScript**. If you can solve these, your **logic + JS fundamentals will become strong**, which helps a lot before moving to **Node.js** and **Express.js**.
+
+---
+
+# 20 JavaScript Coding Problems (Beginner → Intermediate)
+
+## Level 1 — Basic Logic (1–7)
+
+### 1. Reverse a String
+
+Example
+
+```
+Input: "hello"
+Output: "olleh"
+```
+
+---
+
+### 2. Check Palindrome
+
+Check if a string reads the same forward and backward.
+
+Example
+
+```
+Input: "madam"
+Output: true
+```
+
+---
+
+### 3. Find Largest Number in Array
+
+Example
+
+```
+Input: [4,8,2,10]
+Output: 10
+```
+
+---
+
+### 4. Remove Duplicates from Array
+
+Example
+
+```
+Input: [1,2,2,3,4,4]
+Output: [1,2,3,4]
+```
+
+---
+
+### 5. Count Vowels in String
+
+Example
+
+```
+Input: "javascript"
+Output: 3
+```
+
+---
+
+### 6. Sum of Numbers in Array
+
+Example
+
+```
+Input: [1,2,3,4]
+Output: 10
+```
+
+---
+
+### 7. Find Even Numbers
+
+Example
+
+```
+Input: [1,2,3,4,5]
+Output: [2,4]
+```
+
+---
+
+# Level 2 — Array & Object Problems (8–14)
+
+### 8. Flatten an Array
+
+Example
+
+```
+Input: [1,[2,3],[4,[5]]]
+Output: [1,2,3,4,5]
+```
+
+---
+
+### 9. Capitalize First Letter
+
+Example
+
+```
+Input: "hello world"
+Output: "Hello World"
+```
+
+---
+
+### 10. Find Missing Number
+
+Example
+
+```
+Input: [1,2,4,5]
+Output: 3
+```
+
+---
+
+### 11. Sort Array Without `sort()`
+
+Example
+
+```
+Input: [5,3,8,1]
+Output: [1,3,5,8]
+```
+
+---
+
+### 12. Group Objects by Property
+
+Example
+
+```
+[
+ {age:20},
+ {age:20},
+ {age:30}
+]
+```
+
+Output
+
+```
+{
+ 20:[...],
+ 30:[...]
+}
+```
+
+---
+
+### 13. Find Duplicate Elements
+
+Example
+
+```
+Input: [1,2,3,2,4,1]
+Output: [1,2]
+```
+
+---
+
+### 14. Convert Array to Object
+
+Example
+
+```
+["a","b","c"]
+```
+
+Output
+
+```
+{
+0:"a",
+1:"b",
+2:"c"
+}
+```
+
+---
+
+# Level 3 — Important Interview Problems (15–20)
+
+### 15. Debounce Function
+
+Used in search inputs.
+
+---
+
+### 16. Throttle Function
+
+Used in scroll events.
+
+---
+
+### 17. Implement `map()` Function
+
+---
+
+### 18. Implement `filter()` Function
+
+---
+
+### 19. Implement `reduce()` Function
+
+---
+
+### 20. Deep Clone Object
+
+Important for handling nested objects.
+
+---
+
+# Where to Practice These Problems
+
+Practice on:
+
+* Codewars
+* HackerRank
+* LeetCode
+
+---
+
+# Best Weekly Practice Plan
+
+Daily:
+
+* 2 coding problems
+* 1 small DOM feature
+* 10 minutes concept revision
+
+In **2 months**, your **JavaScript** skills will become strong enough to easily learn:
+
+* React
+* Node.js
+* Express.js
+
+This is the path to becoming a **MERN Stack developer**.
+
+---
+
+If you want, I can also show you:
+
+* **30 JavaScript interview questions companies ask**
+* **10 advanced JavaScript concepts senior developers know**
+* **A complete JavaScript project roadmap (beginner → advanced)** 🚀
