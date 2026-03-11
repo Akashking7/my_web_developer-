@@ -14,14 +14,8 @@ function test(msg) {
   console.log(msg);
 }
 
-const d = debounce(test, 10000);
+const d = debounce(test, 1000);
 
 d("A");
 d("B");
 d("C");
-d("D");
-d("E");
-d("F");
-d("G");
-d("H");
-d("I");

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Throttle Example</title>
+  <style>
+    body {
+      height: 3000px;
+      /* make the page scrollable */
+      font-family: sans-serif;
+    }
+
+    #log {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="log">Scroll to see throttled log</div>
+
+  <script>
+    // Throttle function
+    function throttle(func, limit) {
+      let lastCall = 0;
+      return function (...args) {
+        const now = Date.now();
+        if (now - lastCall >= limit) {
+          lastCall = now;
+          func.apply(this, args);
+        }
+      };
+    }
+
+    // Function to run on scroll
+    function handleScroll() {
+      const logDiv = document.getElementById('log');
+      logDiv.textContent = 'Scroll event fired at ' + new Date().toLocaleTimeString();
+      console.log('Scroll event fired at', new Date().toLocaleTimeString());
+    }
+
+    // Wrap the function with throttle (once every 1 second)
+    const throttledScroll = throttle(handleScroll, 1000);
+
+    // Add event listener
+    window.addEventListener('scroll', throttledScroll);
+  </script>
+
+</body>
+
+</html>
