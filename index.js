@@ -1,27 +1,10 @@
-function debounce(func, delay) {
-  let timer;
+for (let i = 0; i <= 10; i++){
+  let arr = [1, 2, 3, 5];
 
-  return function (...args) {
-    clearTimeout(timer);
-
-    timer = setTimeout(() => {
-      func.apply(this, args);
-    }, delay);
-  };
+let result = [];
+  if (i = arr) {
+    result.push()
+  }
 }
-
-function test(msg) {
-  console.log(msg);
-}
-
-const d = debounce(test, 10000);
-
-d("A");
-d("B");
-d("C");
-d("D");
-d("E");
-d("F");
-d("G");
-d("H");
-d("I");
+return result;
+console.log(result)
