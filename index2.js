@@ -1,8 +1,7 @@
-function lifeSpan(age) {
-    var years = 90 - age;
-    var months = years * 12;
-    var weeks = years * 52;
-    var days = years * 365;
-    console.log("i have " + years + "years," + months + " months, " + weeks + " weeks, " + days + " days");
+function calculator(a, b, operator) {
+    return operator(a, b);
 }
-lifeSpan(24);
+function add(x, y) {
+    return x - y;
+}
+console.log(calculator(5,3,add))
