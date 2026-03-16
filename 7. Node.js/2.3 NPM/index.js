@@ -1,6 +1,6 @@
-// var generateName = require('sillyname');
+// var generateName = require('sillyName');
 
-// import generateName from "sillyName";
+// // import generateName from "sillyName";
 
 // var sillyName = generateName();
 

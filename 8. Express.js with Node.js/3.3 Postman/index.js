@@ -23,7 +23,7 @@ app.put("/user/angela", (req, res) => {
 });
 
 app.patch("/user/angela", (req, res) => {
-  res.sendStatus(200);
+  res.sendStatus(202);
 });
 
 app.delete("/user/angela", (req, res) => {
